@@ -1,6 +1,19 @@
 require "loco-rb/version"
+require "loco-rb/configuration"
+require "loco-rb/client"
 
 module LocoRb
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.configuration
+    @configuration ||= Configuration.new
+  end
+
+  def self.configure
+    yield(configuration)
+  end
+
+  def client
+    Client.new
+  end
 end
