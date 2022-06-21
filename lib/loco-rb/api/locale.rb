@@ -15,6 +15,11 @@ module LocoRb
         response = post(PATH, opts)
         LocoRb::Resource::Locale.new(response.data, response.headers, 'locale')
       end
+
+      def get_locale(options={code: 'en'})
+        response = get("#{PATH}/#{options[:code]}")
+        LocoRb::Resource::Locale.new(response.data, response.headers, 'locale')
+      end
     end
   end
 end
