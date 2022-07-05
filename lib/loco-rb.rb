@@ -12,8 +12,4 @@ module LocoRb
   def self.configure
     yield(configuration)
   end
-
-  def client
-    Client.new
-  end
 end

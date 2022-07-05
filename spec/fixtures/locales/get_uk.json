@@ -1,0 +1,21 @@
+{
+  "code": "uk",
+  "name": "Ukrainian",
+  "source": false,
+  "native": false,
+  "plurals": {
+    "length": 3,
+    "equation": "(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)",
+    "forms": [
+      "one",
+      "few",
+      "other"
+    ]
+  },
+  "progress": {
+    "translated": 63,
+    "untranslated": 0,
+    "flagged": 0,
+    "words": 235
+  }
+}

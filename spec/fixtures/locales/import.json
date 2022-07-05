@@ -1,0 +1,27 @@
+{
+  "status": 200,
+  "message": "52 translations imported",
+  "locales": [
+    {
+      "code": "fr",
+      "name": "French",
+      "source": false,
+      "native": false,
+      "plurals": {
+        "length": 2,
+        "equation": "n > 1",
+        "forms": [
+          "one",
+          "other"
+        ]
+      },
+      "progress": {
+        "translated": 52,
+        "untranslated": 11,
+        "flagged": 0,
+        "words": 267
+      }
+    }
+  ],
+  "assets": []
+}

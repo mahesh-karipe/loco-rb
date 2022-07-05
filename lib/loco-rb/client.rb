@@ -15,9 +15,7 @@ module LocoRb
 
     attr_accessor :options
 
-    def initialize(options={})
-      @options = options
-    end
+  private
 
     def get(path, options={})
       request_method(path, :get, options)
@@ -34,8 +32,6 @@ module LocoRb
     def delete(path, options={})
       request_method(path, :delete, options)
     end
-
-    private
 
     def request_method(path, method_verb, options={})
       response = request(path, method_verb, options)
