@@ -1,0 +1,24 @@
+[
+  {
+    "id": "addFile",
+    "type": "text",
+    "context": "",
+    "notes": "",
+    "printf": "",
+    "modified": "2022-07-01 18:14:32 +0000",
+    "plurals": 0,
+    "tags": [
+      "AutoTranslateRU",
+      "AutoTranslateES",
+      "AutoTranslateFR",
+      "AutoTranslateDE",
+      "AutoTranslateuk"
+    ],
+    "aliases": {},
+    "progress": {
+      "translated": 7,
+      "untranslated": 0,
+      "flagged": 0
+    }
+  }
+]
