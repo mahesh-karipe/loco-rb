@@ -4,6 +4,6 @@ source "https://rubygems.org"
 gemspec
 
 gem "rake", "~> 12.0"
-gem 'faraday', '~> 1.10.0'
+gem 'faraday', '~> 2.6'
 gem 'rspec', '~> 3.5'
 gem 'webmock', '~> 3.14'
